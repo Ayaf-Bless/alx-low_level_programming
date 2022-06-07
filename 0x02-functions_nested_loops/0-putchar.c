@@ -1,4 +1,5 @@
 #include "main.h"
+
 #include <string.h>
 
 /**
@@ -6,19 +7,17 @@
  *
  * Return: Always (0)
  */
-int main(void)
-{
-	char c[] = "_putchar";
-	int length, i;
+int main(void) {
+  char c[] = "_putchar";
+  int length, i;
 
-	length = strlen(c);
+  length = strlen(c);
 
-	for (i = 0; i < length; i++)
-	{
-		_putchar(c[i]);
-	}
+  for (i = 0; i < length; i++) {
+    _putchar(c[i]);
+  }
 
-	_putchar('\n');
+  _putchar('\n');
 
-	return (0);
+  return (0);
 }
