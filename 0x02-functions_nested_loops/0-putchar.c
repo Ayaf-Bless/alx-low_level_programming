@@ -1,12 +1,20 @@
-#include "main.h"
-
-/**
- * main - prints _putchar
+/*
+ * File: 0-putchar.c
+ * Auth: Bless Ambele
  *
- * Return: 0 (Success)
  */
 
-int main(void)
+	#include "putchar.h"
+	#include<stdio.h>
+	#include<main.h>
+
+/**
+ * main - Prints "putchar" followed by a new line.
+ *
+ * Return: Always 0.
+ */
+
+	int main(void)
 {
 	_putchar('_');
 	_putchar('p');
