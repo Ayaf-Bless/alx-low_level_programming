@@ -1,13 +1,24 @@
-#include <unistd.h>
+#include "main.h"
+#include <string.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * main - prints holberton
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always (0)
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	char c[] = "_putchar";
+	int length, i;
+
+	length = strlen(c);
+
+	for (i = 0; i < length; i++)
+	{
+		_putchar(c[i]);
+	}
+
+	_putchar('\n');
+
+	return (0);
 }
