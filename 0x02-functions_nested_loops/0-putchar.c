@@ -4,9 +4,8 @@
  *
  */
 
-	#include "putchar.h"
-	#include<stdio.h>
-	#include<main.h>
+	#include "main.h"
+	#include <string.h>
 
 /**
  * main - Prints "putchar" followed by a new line.
