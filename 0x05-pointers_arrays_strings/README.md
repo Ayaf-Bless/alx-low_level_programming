@@ -1,2 +1,2 @@
 # All about pointers and string
-a complexe topic such a this must clearly be understood
+a complexe topic such as this must clearly be understood 
